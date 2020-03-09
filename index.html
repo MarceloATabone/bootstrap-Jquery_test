@@ -1,25 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
-        <title>Marcelo A Tabone</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Web_Test</title>
 
+        <!-- CSS ----------------------------------------------->
         <link rel="stylesheet" href="libs/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/main.css" >
+        <!------------------------------------------------------>
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="#">
+                <img style="max-width:150px; margin-top: -7px;" src="images/logo_hdti_two.png" >
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+        <!-- Content START ------------------------------------------------------------------------>
+
+        <header class="page-header header container-background"></header>
+
+        <div class="container features">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="feature-title">Sites</h3>
+                    <img src="images/php-code-1242330-640x480.jpg" class="img-fluid">
+                    <p>
+                        Basic or advanced sites.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="feature-title">Servers</h3>
+                    <img src="images/green-computer-1552038-639x479.jpg" class="img-fluid">
+                    <p>
+                        Creation and maintenance of servers.
+                    </p>
+                </div>  
+                <div class="col-lg-4 col-md-4 col-sm-12">    
+                    <h3 class="feature-title"> Send Email </h3>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Name" name="">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Email Address" name="email">
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" rows="4"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">  
+                </div>
+            </div>     
+        </div>
+        <!-- Content END ------------------------------------------------------------------------>
+
+        <!--Footer Start------------------------------------------------------------------------->
+        <footer class="page-footer footer"></footer>
+        <!--Footer END -------------------------------------------------------------------------->
+
+        <!-- JS ------------------------------------------------>
         <script src="libs/js/jquery.min.js"></script>
         <script src="libs/js/bootstrap.min.js"></script>
-        <script src="js/includes.js"></script>
-    </head>
+        <script src="js/main.js"></script>
+        <!------------------------------------------------------> 
 
-    <body>
-        <div id="header"></div>
-        
-        <div id="wrap">
-            <div id="main" class="container clear-top">
-                <p> in production </p>
-            </div>
-        </div>
-        <div id="footer"></div>
     </body>
 </html>
